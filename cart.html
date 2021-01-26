@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="theme/frontend/css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="theme/frontend/css/reset.css">
+    <link rel="stylesheet" href="theme/frontend/css/style.css">
+    <link rel="stylesheet" href="theme/frontend/scss/cart.css">
+    <link rel="stylesheet" href="theme/frontend/css/base.css">
+    <title>Giỏ hàng</title>
+</head>
+
+<body>
+    <header class="fixed">
+        <div class="container">
+            <div class="row align-items-center position-relative">
+                <div class="col-lg-2 col-5">
+                    <a href="index.html">
+                        <img src="theme/frontend/images/logo-dovagroup-web-to-ngoc-hoan-plus.webp" alt="logo"
+                            class="logo_desktop">
+                    </a>
+                </div>
+                <div class="col-lg-9 col-7 d-lg-block d-flex align-items-center justify-content-end position-static">
+                    <nav class="nav--block text-lg-center">
+                        <ul>
+                            <li>
+
+                                <a href="">GIỚI THIỆU</a>
+                                <ul class="">
+                                    <li><a href="Dovagroup.html">Về Dova Group</a></li>
+                                    <li><a href="to-ngoc-hoan-plus.html">Tố Ngọc Hoàn Plus</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">THÀNH PHẦN</a>
+                                <ul class="">
+                                    <li><a href="sam-to-nu.html">Sâm Tố Nữ</a></li>
+                                    <li><a href="VitaminE.html">Vitamin E</a></li>
+                                    <li><a href="Isoflavones.html">Isoflavones</a></li>
+                                    <li><a href="thao-duoc-khac.html">Thảo Dược Khác</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">CÔNG CỤ HỖ TRỢ</a>
+                                <ul class="">
+                                    <li><a href="sam-to-nu.html">Cân Bằng Nội Tiết Tố Nữ</a></li>
+                                    <li><a href="thao-duoc-khac.html">Bổ Sung Estrogen</a></li>
+                                    <li><a href="Dovagroup.html">Đẩy Lùi Khô Hạn</a></li>
+                                    <li><a href="to-ngoc-hoan-plus.html">Điều Hòa Kinh Nguyệt</a></li>
+                                    <li><a href="VitaminE.html">Đập Tan Nỗi Lo Ngực Xệ</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="Isoflavones.html" title="kien-thuc-lam-dep">KIẾN THỨC LÀM ĐẸP</a>
+                            </li>
+                            <li>
+                                <a href="thao-duoc-khac.html" title="tin-tuc">TIN TỨC</a>
+                            </li>
+                            <li>
+                                <a href="lien-he.html">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="block-action--user ff-avo"><a href="dangnhap.html" id="myBtn" title="Đăng nhập"
+                            class="d-inline-block login user-action mr-xl-3 mr-2"><img
+                                src="theme/frontend/images/user.png" alt="Đăng nhập"></a><a href="#" title="Giỏ hàng"
+                            class="d-inline-block user-action"><img src="theme/frontend/images/cart.png"
+                                alt="gio-hang"></a></div>
+                    <div class="btn">
+                        <span class="fas fa-bars"></span>
+                    </div>
+                </div>
+                <div class="col-lg-1 d-lg-block d-none position-relative action-block account">
+                    <a href="dangnhap.html" title="Đăng nhập" id="myBtn1"
+                        class="d-inline-block login user-action mr-xl-3 mr-1">
+                        <img src="theme/frontend/images/user.png" alt="">
+                    </a>
+                    <a href="" title="Giỏ hàng " class="d-inline-block user-action position-relative">
+                        <img src="theme/frontend/images/cart.png" alt="">
+                    </a>
+                </div>
+
+                <div class="overlay"></div>
+                <div class="menu-mb">
+                    <span class="logo">
+                        <a href="">
+                            <img src="theme/frontend/images/logo.png" alt="">
+                        </a>
+                    </span>
+                    <ul>
+                        <li>
+                            <a href="#" class="btn_1">GIỚI THIỆU</a>
+
+                            <i class="fas fa-caret-down first"></i>
+
+                            <ul class="menu1-show">
+                                <li>
+                                    <a href="Dovagroup.html"> Về Dova Group</a>
+                                </li>
+                                <li><a href="to-ngoc-hoan-plus.html">Tố Ngọc Hoàn Plus</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="btn_2">THÀNH PHẦN</a>
+                            <i class="fas fa-caret-down second"></i>
+                            <ul class="menu2-show">
+                                <li><a href="sam-to-nu.html">Sâm Tố Nữ</a></li>
+                                <li><a href="VitaminE.html">Vitamin E</a></li>
+                                <li><a href="Isoflavones.html">Isoflavones</a></li>
+                                <li><a href="thao-duoc-khac.html">Thảo dược khác</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="btn_3">CÔNG CỤ HỖ TRỢ</a>
+                            <i class="fas fa-caret-down third"></i>
+                            <ul class="menu3-show">
+                                <li><a href="">Cân Bằng Nội Tiết Tố Nữ</a>
+                                    <i class="fas fa-caret-down four"></i>
+                                    <ul class="menu3-show-item">
+                                        <li><a href="Dovagroup.html">Đẩy Lùi Khô Hạn</a></li>
+                                        <li><a href="to-ngoc-hoan-plus.html">Cân bằng nội tiết</a></li>
+                                        <li><a href="VitaminE.html">Điều hoà kinh nguyệt</a></li>
+                                        <li><a href="Isoflavones.html">Đẩy Lùi Khô Hạn</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="Isoflavones.html">Bổ Sung Estrogen</a></li>
+                                <li><a href="sam-to-nu.html">Đẩy Lùi Khô Hạn</a></li>
+                                <li><a href="thao-duoc-khac.html">Điều hoà kinh nguyệt</a></li>
+                                <li><a href="to-ngoc-hoan-plus.html">Đập tan nỗi lo ngực xệ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Isoflavones.html">KIẾN THỨC LÀM ĐẸP</a>
+                        </li>
+                        <li>
+                            <a href="thao-duoc-khac.html">TIN TỨC</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <nav aria-label="breadcrumb" class="breadcrumb_pd">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><i class="fas fa-home"></i><a href="#">Trang chủ</a></li>
+                <li class="breadcrumb-item ">GIỎ HÀNG</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="cart">
+        <div class="container">
+            <div class="row pd-all">
+                <div class="col-lg-6 col-12">
+                    <h1 class="heading-title">
+                        GIỎ HÀNG
+                    </h1>
+                    <h3>
+                        THÔNG TIN VẬN CHUYỂN
+                    </h3>
+                    <p>
+                        Bạn đã có tài khoản ?
+                        <a href="">Đăng nhâp</a>
+                    </p>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Họ và tên">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <input type="text" class="form-control" placeholder="Số điện thoại">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Địa chỉ">
+                    </div>
+                    <div class="form-group">
+                        <select name="" id="">
+                            <option value="">Tỉnh/thành phố</option>
+                            <option value="">Hà Nội</option>
+                            <option value="">Thành phố Hồ Chí Minh</option>
+                            <option value="">Vĩnh Phúc</option>
+                            <option value="">Hà Nam</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="" id="">
+                            <option value="">Quận/Huyện</option>
+                            <option value="">Hà Nội</option>
+                            <option value="">Thành phố Hồ Chí Minh</option>
+                            <option value="">Vĩnh Phúc</option>
+                            <option value="">Hà Nam</option>
+                        </select>
+                    </div>
+                    <p>
+                        Phương thức thanh toán
+                    </p>
+                    <label for="" class="radio-tt">
+                        <input type="radio" placeholder="Thanh toán khi nhận hàng">
+                    </label>
+                    <label for="" class="radio-tt">
+                        <input type="radio" placeholder="Chuyển khoản ngân hàng">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="theme/frontend/css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="theme/frontend/js/jquery-3.5.1.js"></script>
+    <script src="theme/frontend/js/index.js"></script>
+    <script>
+        $('.number').change(function () {
+            var price = Number($(this).parent().parent()[0].childNodes[5].childNodes[0].innerHTML.replace(".", "")) * 1000
+            var number = Number($(this).val())
+            var totalItem = number * price;
+            var vnd = totalItem.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
+            $(this).parent().parent()[0].cells[4].childNodes[1].innerHTML = vnd;
+
+            $("#total").html(function () {
+                var total = 0;
+                $(".total-item").each(function () {
+                    total += parseInt(Number($(this).html().replace(".", "")) * 1000);
+                });
+                $("#totalPrice").html(total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
+                return total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
+            });
+        })
+    </script>
+</body>
+
+</html>

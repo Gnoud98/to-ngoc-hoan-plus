@@ -1,0 +1,67 @@
+.utmavo-ct .s-content p,strong{
+    font-family: "UTM-AVO-regular";
+    font-size: 1.8rem;
+}
+.table-item{
+    list-style: decimal;
+}
+.content-table p{
+    font-size: 2rem;
+    font-family: "Tahoma-Regular";
+    line-height: 2.8rem;
+    text-align: left;
+    color: #495057;
+}
+.content-table ul li a{
+    font-family: "UTM-AVO-regular";
+    font-size: 1.4rem;
+    color: #333333;
+    line-height: 1.4;
+}
+.content-table ul li a:hover{
+    color:#E9A99F;
+    transition: .5s;
+}
+.content-table{
+    border: 1px solid #B8B8B8;
+    padding: 10px 25px;
+    background: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content .s-content h3{
+    display: block;
+    font-family: "UTM-AVO-regular";
+    font-size: 2.1rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #495057;
+}
+.content .s-content ul{
+    list-style: initial;
+    margin-left: 15px;
+    margin-bottom: 10px;
+ 
+}
+.table-item{
+    padding-left:1rem ;
+}
+.content .s-content ul li{
+    line-height: 2.8rem;
+    font-family: "UTM-AVO-regular";
+    font-size: 1.8rem;
+    text-align: justify;
+    font-weight: 400;
+    color: #495057;
+}
+.s-content img{
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    height: auto !important;
+    object-fit: contain;
+    text-align: center;
+}

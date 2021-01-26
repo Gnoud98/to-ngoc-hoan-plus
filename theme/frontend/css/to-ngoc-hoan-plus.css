@@ -1,0 +1,75 @@
+
+.content .heading-title{
+text-align: left;
+font-size: 3.6rem;
+margin-bottom: 1.5rem;
+line-height: 4.2rem;
+}
+.content .s-content p{
+    font-family: "Tahoma-Regular";
+    font-size: 2rem;
+    color: #495057;
+}
+.content .s-content h2{
+    display: block;
+    font-size: 2.7em;
+    margin:.8rem 0 ;
+    font-weight: bold;
+    line-height:4.2rem; 
+    color: #495057;
+}
+.content .s-content ul{
+    list-style: initial;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.content .s-content ul li{
+    font-family: "Tahoma-Regular";
+    font-size: 2rem;
+    color: #495057;
+    line-height: 3.2rem;
+}
+.tnh_item .side-bar a{
+    font-family: "Tahoma-Regular";
+    font-size: 1.8rem;
+    color: #333;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: solid 0.75px #FFC6BD;
+    line-height: 2.8rem;
+     
+}
+.tnh_item .side-bar a:hover{
+    color: #BC516B;
+}
+.tnh_item h2.heading-title{
+    font-size: 3rem;
+}
+.video-item .playvideo {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.playvideo {
+    cursor: pointer;
+}
+.video-item:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    content: '';
+}
+.video-share {
+    padding-top: 75px;
+}

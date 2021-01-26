@@ -1,0 +1,499 @@
+@media(max-width:1024px) {
+    .nav--block {
+        display: block;
+    }
+    .slider .item .slider-item {
+        padding-right: 2rem;
+    }
+    /* .expert-img::before {
+        top: 0%;
+        bottom: 24%;
+    } */
+}
+
+@media(max-width:991px) {
+    .btn {
+        display: block;
+       margin-bottom: .5rem;
+    }
+    .content-news .btn-main{
+        top: 0 !important;
+        position: inherit !important;
+    }
+    .ctent-mg img {
+        width: 100%;
+    }
+    .menu-mb {
+        width: 50%;
+    }
+    .advisory {
+        display: none;
+    }
+    .pdr-all {
+        padding-right: 1.5rem;
+    }
+    /* .animated {
+        padding-top: 4rem;
+    } */
+    .slick-dots{
+        left: 47%;
+    }
+    .content-news .btn-main {
+        top: 100%;
+        left: 3% !important;
+    }
+    .form-contact {
+        padding-top: 5rem;
+        max-height: 60rem !important;
+    }
+    .block-action--user {
+        display: block;
+        position: relative;
+    }
+    .nav--block {
+        display: none;
+    }
+    .slider .item .slider-item {
+        min-height: 40rem;
+    }
+    .item .slider-item .img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .content-text h2 {
+        font-size: 2.6rem;
+        line-height: 1.5;
+    }
+    .content-text .text-slider {
+        font-size: 1.6rem;
+    }
+    .slider-item {
+        padding: 0 1.5rem;
+    }
+    .img img {
+        margin: auto;
+        display: flex;
+    }
+    .introduce-1 .img::after {
+        background-size: 50%;
+        background-position: center;
+    }
+    .intro-detail .heading-title {
+        font-size: 3.2rem;
+      
+    }
+    .logo_desktop {
+        max-width: 9rem;
+        width: 100%;
+    }
+    header {
+        padding: 1rem 0;
+    }
+    .introduce-2 .img-2 img {
+        height: auto;
+        width: 445px;
+        max-height: 300px;
+        left: 0;
+    }
+    .introduce-1 {
+        padding-bottom: 0;
+    }
+    .feedback-text {
+        padding: 1rem 1.5rem;
+    }
+    /* .feedback-slider .slick-initialized .slick-slide {
+        padding: 0 3rem 0 0;
+    } */
+    .introduce-2 .img-2 {
+        margin-top: -3rem;
+    }
+    .content-fback p {
+        font-size: 14px;
+    }
+    .s-content p {
+        font-size: 1.6rem;
+    }
+    .intro-detail .heading-title {
+        font-size: 2.4rem;
+    }
+    .introduce-2 .s-content p {
+        font-size: 1.6rem;
+    }
+    .heading-title {
+        font-size: 3.2rem;
+        margin-top: 2rem;
+    }
+    .expert-feedback .expert-img img {
+        display: flex;
+        margin: 0 auto;
+        top: -1.2rem;
+    }
+    /* .expert-img::before {
+        position: absolute;
+        top: 5%;
+        left: 20%;
+        right: 16%;
+        bottom: -2%;
+        z-index: 1;
+        border-radius: 999px;
+        border: solid 5px #fff;
+        content: '';
+    } */
+    .bgfooter .content_ft p {
+        padding-top: 1rem;
+    }
+    .bgfooter {
+        padding-top: 4.5rem;
+    }
+}
+
+@media(max-width:768px) {
+    .social-item, .back-top {
+        right: 30px;
+    }
+    .introduce-1{
+        padding-top: 6rem;
+    }
+    /* .ctent-mg img{
+        max-height: 100%;
+    } */
+    .form-contact-detail .btn-main {
+        margin-top: 1.5rem;
+    }
+    
+    .form-contact-detail {
+        top: -186px;
+    }
+    .feedback{
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+    .pd-all {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .menu-mb {
+        width: 50%;
+    }
+    .btn {
+        right: 7%;
+        top: .6rem;
+    }
+    .bgfooter {
+        padding: 2.5rem 0;
+    }
+    .form-contact-detail{
+        top: -190px !important;
+    }
+}
+
+@media(max-width:576px) {
+    .expert-img::before {
+        left: 6%;
+        right: 6%;
+    }
+    .message{
+        margin: 2.5rem 0 5rem 0;
+    }
+ .social-dn{
+        justify-content: center !important;
+    }
+    .expert-feedback .btn-main{
+        top: -12px;
+        margin-top: 10px;
+    }
+    .feedback{
+        padding-top: 0;
+    }
+    .feedback-slider .slick-prev{
+        left: 0px;
+    }
+    .content-news .btn-mainƠ
+    .ctent-mg {
+        margin-bottom: 6rem !important;
+    }
+    .slider .item .slider-item {
+        min-height: 33rem;
+    }
+    .form-contact-detail .btn-main {
+        margin-top: 0;
+        font-size: 1.6rem !important;
+        height: 5rem !important;
+        top: 1.5rem;
+        left: auto;
+    }
+    .form-dn .social-dn a, .form-dk .social-dn a {
+        margin-bottom: 2rem;
+    }
+    .form-dn .form-group .btn-main,.form-dk .form-group .btn-main {
+        line-height: 1.2rem !important;
+        font-size: 1.8rem !important;
+        min-width: 18rem !important;
+    }
+    .form-dn .form-group input::placeholder {
+        font-size: 1.4rem;
+    }
+    .form-dn , .form-dk{
+        padding: 3.5rem 2.5rem !important;
+    }
+    .form-dn p, .form-dk p {
+        margin-top: 4rem;
+    }
+    .form-dk .form-group{
+        margin-bottom: 1rem !important;
+    }
+    .form-dk .form-group .btn-main{
+        margin-top: 0;
+    }
+    .pd-all {
+        padding-bottom: 0;
+    }
+    
+    .form-contact {
+        padding-top: 8rem;
+        max-height: 40rem !important;
+    }
+    .custom-ct input {
+        width: 120px !important;
+    }
+    .introduce-1 .img::after {
+        background-size: 64%;
+    }
+    .menu-mb {
+        width: 42rem;
+    }
+    .bgfooter ul li {
+        margin-bottom: 1.2rem;
+    }
+    .bgfooter .title-ft {
+        margin-bottom: 1.8rem;
+    }
+    .introduce-1 {
+        padding-top: 3rem;
+    }
+    .heading-title {
+        margin-bottom: .5rem;
+        padding-top: 1.6rem;
+    }
+    .s-content p {
+        line-height: 1.5;
+    }
+    .form-contact-detail {
+        max-width: 350px;
+        margin: auto;
+        top: unset;
+        padding: 15px 18px 30px 18px !important;
+        margin-top: -190px;
+    }
+    .form-contact-detail input {
+        font-size: 1.2rem;
+    }
+    .form-contact-detail textarea {
+        font-size: 12px;
+        min-height: 84px !important;
+        height: 84px;
+    }
+    /* .form-contact-detail {
+        padding: 10px 20px!important;
+    } */
+    .form-contact-detail h2 {
+        font-size: 1.8rem !important;
+    }
+    .custom {
+        margin-top: 0!important;
+    }
+    .heading-title{
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+@media(max-width:480px) {
+    .content-text .text-slider {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .sidebar-news img{
+        margin-top: 5rem;
+    }
+    .ctent-mg img{
+        margin-top: 32px;
+    }
+    .feedback-slider .slick-prev{
+        left: -15px;
+        width: 40px;
+        height: 40px;
+    }
+    .feedback-slider .slick-next{
+        width: 40px;
+        height: 40px;
+    }
+    .feedback-slider .slick-prev::after,.feedback-slider .slick-next::after{
+        top: 5px;
+    }
+    
+    .introduce-2{
+        padding: 0;
+    }
+    .feedback{
+        padding-bottom: 5rem;
+        padding-top: 0;
+    }
+    .content-text h2 {
+        font-size: 1.5rem;
+    }
+    .slider .item .slider-item {
+        min-height: 22rem;
+    }
+    .content-news {
+        padding-left: 1.5rem !important;
+    }
+    .btn-main {
+        min-width: 12rem;
+        height: 3.6rem;
+        line-height: 1.6;
+        font-size: 1.6rem;
+        top: 2rem;
+        left: 1rem;
+        padding-top: .3rem;
+    }
+    .item .slider-item .img img {
+        max-width: 11rem;
+    }
+    .intro-detail .text-show-more .btn-main {
+        margin-right: 0;
+    }
+    .feedback-slider .slick-initialized .slick-slide {
+        padding-left: .4rem;
+    }
+    .feedback-slider .slick-initialized .slick-slide {
+        padding-right: 2rem;
+    }
+    .slick-dots {
+        left: 15rem;
+    }
+    .heading-title {
+        font-size: 2.4rem !important;
+    }
+    .content .s-content h2{
+        font-size: 2.2rem !important;
+        line-height: 1.5;
+    }
+    /* .message{
+        margin: 2.5rem 0 4rem 0;
+    } */
+    .feedback-text p {
+        font-size: 1.8rem;
+    }
+    .content-fback p, .expert-feedback .s-content p {
+        font-size: 1.4rem;
+    }
+   
+    .bgfooter ul li a {
+        line-height: 1.5;
+    }
+    .bgfooter .title-ft {
+        margin-top: 2rem;
+    }
+    .social-item, .back-top {
+        right: 1.6rem;
+    }
+    .img img {
+        max-width: 25rem;
+        max-height: 25rem;
+    }
+    .intro-detail .img {
+        padding-top: 2rem;
+    }
+    .bgfooter {
+        padding: 2.5rem 0 0 0;
+    }
+    .slider .slick-dots button {
+        left: 3rem;
+    }
+    .intro-detail .heading-title {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+    .content_tdk h3 a {
+        font-size: 1.8rem !important;
+    }
+    .content-news .s-content p {
+        font-size: 1.4rem !important;
+        line-height: 1.6;
+    }
+}
+
+@media(max-width:414px) {
+    .btn {
+        right: 4%;
+    }
+    .menu-mb {
+        width: 28rem;
+    }
+
+}
+
+@media(max-width:375px) {
+    .btn {
+        right: 4%;
+    }
+    .menu-mb {
+        width: 26rem;
+    }
+    .content-img{
+        padding-right: 1.5rem !important;
+    }
+    .expert-img::before {
+        left: 7%;
+        right: 7%;
+        top: 8%;
+    }
+    .slick-dots {
+        left: 33%;
+    }
+    /* .ctent-mg img{
+        max-width: 175px;
+        object-fit: cover;
+        width: 100%;
+    } */
+}
+@media(max-width:360px){
+    .slick-dots {
+        left: 32%;
+    }
+    .menu-mb {
+        width: 25rem;
+    }
+}
+@media(max-width:320px) {
+    .btn-main {
+        top: 1rem;
+        left: 1rem;
+        min-width: 10rem;
+        font-size: 1.4rem;
+    }
+    .feedback-slider .slick-dots button {
+        left: -1rem;
+    }
+    .form-contact-detail{
+        width: 270px;
+    }
+    .menu-mb {
+        width: 26rem;
+    }
+}
+
+@media(max-width:280px) {
+    .menu-mb {
+        width: 23rem;
+    }
+    .img img {
+        max-width: 16rem;
+    }
+    .expert-img::before {
+        left: 7%;
+        right: 7%;
+        top: 8%;
+    }
+}

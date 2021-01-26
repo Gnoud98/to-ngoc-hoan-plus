@@ -1,0 +1,24 @@
+.new-related h2{
+font-family: "Montserrat-Regular";
+font-size: 3rem;
+color: #495057;
+margin-top: 4rem;
+margin-bottom: 1.5rem;
+line-height: 3.5rem;
+}
+.new-related a{
+    display: block;
+    font-family: "Tahoma-Regular";
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    color: #495057;
+    margin-bottom: 1.6rem;
+}
+.new-related a i{
+    font-size: 1.5rem;
+    font-weight: thin;
+}
+.new-related a:hover{
+    color: #BC516B;
+    transition: .5s;
+}

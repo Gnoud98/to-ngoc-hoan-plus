@@ -1,0 +1,42 @@
+.content_tdk h3 a{
+    font-family: "Montserrat-Regular";
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #495057;
+    font-weight: bold;
+  
+}
+.content-news .s-content p{
+    font-family: "UTM-AVO-regular";
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.content-news .btn-main{
+    background: #fff;
+    color: #F4B5AB;
+    min-width: 15.7rem;
+    height: 4rem;
+    line-height: 3.6rem;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.content-news .btn-main:hover{
+    background: #F4B5AB;
+    color: #fff;
+    transition: .5s;
+}
+.content-news{
+    padding-left: 1rem;
+}
+.content-img{
+    padding-right: 1rem;
+}
+.ctent-mg{
+    margin-bottom: 3rem;
+}
+.ctent-mg img{
+    max-height: 250px;
+    object-fit: cover;
+}

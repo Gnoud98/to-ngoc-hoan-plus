@@ -1,0 +1,91 @@
+.form-dk {
+  max-width: 58.5rem;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  padding: 4.5rem 2.5rem;
+  border-radius: 10px; }
+  .form-dk p {
+    text-align: center;
+    color: #495057;
+    font-family: "Tahoma-Regular";
+    font-size: 1.6rem; }
+  .form-dk p:last-child {
+    font-family: "UTM-AVO-regular";
+    font-size: 1.6rem;
+    margin-top: 2.5rem; }
+    .form-dk p:last-child a {
+      font-family: "UTM-AVO-regular";
+      font-size: 1.6rem;
+      color: #f1bdd3; }
+      .form-dk p:last-child a:hover {
+        color: #333;
+        transition: .5s; }
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem; }
+  .form-group input {
+    padding: 1.5rem 2.5rem;
+    font-family: "UTM-AVO-regular";
+    font-size: 1.6rem;
+    border-radius: 10rem; }
+  .form-group i {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #333;
+    right: 50px; }
+  .form-group .btn-main {
+    margin-top: 3rem;
+    background: #f1bdd3;
+    line-height: 5.2rem;
+    font-size: 2rem;
+    text-transform: none;
+    cursor: pointer; }
+    .form-group .btn-main:focus {
+      outline: none; }
+    .form-group .btn-main:hover {
+      background: #fff;
+      color: #f1bdd3;
+      transition: 0.5s; }
+  .form-group .error {
+    font-family: "UTM-AVO-regular";
+    color: red;
+    font-size: 1.3rem;
+    font-style: italic; }
+
+.social-dn {
+  margin-top: 1.6rem; }
+  .social-dn a {
+    font-family: "UTM-AVO-regular";
+    background: #f9f9f9;
+    font-size: 1.5rem;
+    border-radius: 99px;
+    min-width: 26rem;
+    height: auto;
+    color: #3b589e; }
+  .social-dn .fb i {
+    background: #3b589e;
+    color: #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 3.5rem;
+    font-size: 1.5rem; }
+  .social-dn .gg i {
+    background: #CE201F;
+    color: #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 3.5rem;
+    font-size: 1.5rem; }
+
+.content {
+  padding-bottom: 5rem; }
+
+/*# sourceMappingURL=dang-ky.css.map */

@@ -1,0 +1,44 @@
+.contact-info{
+    .heading-title{
+        margin-bottom: 2.5rem;
+    }
+    .contact{
+        h3{
+            font-family: "Montserrat-Regular";
+            font-size: 3rem;
+            color: #495057;
+            line-height: 3.7rem;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+      img{
+          width: 3rem;
+          height: 3rem;
+          margin-right: 1rem;
+          object-fit: contain;
+      }
+      p{
+          margin-bottom: 1rem;
+          span{
+              font-family: "Montserrat-Regular";
+              color: #495057;
+              font-size: 1.8rem; 
+              font-weight: bold;    
+                    
+              &:last-child{
+                font-family: "Tahoma-Regular";
+                font-size: 1.6rem;
+                color: #495057;
+                font-weight: initial;
+                line-height: 1.5;
+              }
+          }
+      }
+    }
+}
+.map{
+    iframe{
+        width: 100%;
+        min-height: 30rem;
+    }
+}
